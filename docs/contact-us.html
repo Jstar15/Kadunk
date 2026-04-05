@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | Kadunk Football</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* --- SIMPLE, MODERN CONTACT PAGE --- */
+    body {
+      background-color: #6b28a2;
+      color: white;
+    }
+
+    .contact {
+      padding: 80px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+	        background-color: #6b28a2;
+    }
+
+.contact-card {
+background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),url(images/bg-ready-to-get-started.png); ;
+
+
+
+  border-radius: 12px;
+  max-width: 650px;
+  width: 100%;
+  padding: 50px 40px;
+  text-align: center;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+    .contact-card h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #6b28a2;
+      font-weight: 700;
+    }
+
+    .contact-card p {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    /* --- Form --- */
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      text-align: left;
+    }
+
+    .contact-form label {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: #6b28a2;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #fafafa;
+      color: #333;
+      font-size: 1rem;
+      transition: border-color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      border-color: #cab24f;
+      background-color: #fff;
+      outline: none;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    .contact-form button {
+      margin-top: 25px;
+      background-color: #6b28a2;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      padding: 14px 0;
+      font-size: 1.05rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #cab24f;
+      color: #13130c;
+      transform: translateY(-1px);
+    }
+
+    .contact-info {
+      margin-top: 40px;
+      border-top: 1px solid #eee;
+      padding-top: 25px;
+      font-size: 0.95rem;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    .contact-info a {
+      color: #6b28a2;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .contact-info a:hover {
+      color: #cab24f;
+    }
+
+    @media (max-width: 768px) {
+      .contact-card {
+        padding: 40px 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER (same as before) -->
+  <header class="header">
+    <nav class="navi">
+      <div class="menu-top">
+		<div class="menu-left">
+		  <a href="./index.html">
+			<img src="images/logo.jpg" loading="lazy" class="logo" alt="Kadunk Football Logo">
+		  </a>
+		</div>
+        <div class="menu-center">
+          <img src="images/instagram.png" width="30" height="30" loading="lazy" class="logo" alt="Instagram">
+			<a href="https://www.facebook.com/groups/14686525466/posts/10170790569075467/" target="_blank" rel="noopener noreferrer">
+			  <img src="images/facebook.png" width="30" height="30" loading="lazy" class="logo" alt="Facebook - We Make Footballers">
+			</a>
+
+        </div>
+        <ul class="menu">
+		  <li class="menu-link"><a href="./news.html">News And Updates</a></li>
+          <li class="menu-link"><a href="./our-classes.html">Our Classes</a></li>
+          <li class="menu-link"><a href="./contact-us.html" class="active">Contact Us</a></li>
+          <li><button class="btn-book-free-session">Book a free session</button></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact">
+    <div class="contact-card">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you! Send us a message below and a member of the Kadunk team will get back to you soon.</p>
+
+      <form class="contact-form" action="mailto:info@kadunkfootball.com" method="post" enctype="text/plain">
+        <div>
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:info@kadunkfootball.com">info@kadunkfootball.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+447123456789">+44 7123 456 789</a></p>
+        <p><strong>Address:</strong> Kadunk Football, 123 Sports Avenue, London, UK</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Kadunk Football. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

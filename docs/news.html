@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>News and Updates</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Page section layout */
+    .news-section {
+      background-color: #6b28a2;
+      padding: 60px 20px 80px;
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .news-title {
+      color: #cab24f;
+      text-transform: uppercase;
+      font-size: 2.4rem;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 1.5px;
+      margin-bottom: 40px;
+    }
+
+    /* Each post container */
+    .poster {
+      margin-bottom: 40px;
+      max-width: 800px;
+      width: 100%;
+      background-color: #13130c;
+      border: 8px solid #cab24f;
+      border-radius: 12px;
+      padding: 30px;
+      color: #f9f6ea;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .post-date {
+      display: block;
+      text-align: right;
+      font-size: 0.9rem;
+      font-style: italic;
+      color: #e6dba6;
+      margin-bottom: 15px;
+    }
+
+    .poster p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .poster ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      margin-top: 8px;
+      margin-bottom: 15px;
+    }
+
+    .poster ul li {
+      margin-bottom: 6px;
+    }
+
+    a.email-link {
+      color: #cab24f;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a.email-link:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .poster {
+        padding: 20px;
+      }
+      .news-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER (unchanged) -->
+  <header class="header">
+    <nav class="navi">
+      <div class="menu-top">
+        <div class="menu-left">
+          <a href="./index.html">
+            <img src="images/logo.jpg" loading="lazy" class="logo" alt="Kadunk Football Logo">
+          </a>
+        </div>
+
+        <div class="menu-center">
+          <img src="images/instagram.png" width="30" height="30" loading="lazy" class="logo" alt="Instagram">
+          <a href="https://www.facebook.com/groups/14686525466/posts/10170790569075467/" target="_blank" rel="noopener noreferrer">
+            <img src="images/facebook.png" width="30" height="30" loading="lazy" class="logo" alt="Facebook - We Make Footballers">
+          </a>
+        </div>
+
+        <ul class="menu">
+          <li class="menu-link"><a href="./news.html" class="active">News And Updates</a></li>
+          <li class="menu-link"><a href="./our-classes.html">Our Classes</a></li>
+          <li class="menu-link"><a href="./contact-us.html">Contact Us</a></li>
+          <li><button class="btn-book-free-session">Book a free session</button></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- NEWS SECTION -->
+  <section class="news-section">
+    <h1 class="news-title">News & Updates</h1>
+
+    <!-- First Post -->
+    <div class="poster">
+      <time class="post-date" datetime="2025-10-20">October 20, 2025</time>
+
+      <p><strong>🚨 New Players Always Welcome!</strong></p>
+
+      <p>Email us: <a href="mailto:kadunkfootball@gmail.com" class="email-link">kadunkfootball@gmail.com ✉️</a></p>
+
+      <p>Join us for exciting, laughter-filled sessions packed with:</p>
+      <ul>
+        <li>⭐ Fun football drills ✔️</li>
+        <li>⭐ Passing, shooting &amp; target games ✔️</li>
+        <li>⭐ Mini matches and friendly tournaments ✔️</li>
+      </ul>
+
+      <p>At Kadunk Football, we bring the joy back into football — no pressure, no seriousness, just pure fun! 💪🏽🌟</p>
+
+      <p>Let your child learn, play, and fall in love with the beautiful game ⚽️</p>
+
+      <p><strong>📍 Location:</strong> Southglade Leisure Centre (NG5 5GU)</p>
+
+      <p><strong>📅 Session Times:</strong></p>
+      <ul>
+        <li>🟢 Tuesdays:
+          <ul>
+            <li>🟢 Ages 1–5 years → 5:00 pm – 5:45 pm</li>
+            <li>🟢 Ages 6–8 years → 6:00 pm – 7:00 pm</li>
+          </ul>
+        </li>
+        <li>🟡 Wednesdays:
+          <ul>
+            <li>🟡 Ages 9–12 years → 6:00 pm – 7:00 pm</li>
+          </ul>
+        </li>
+      </ul>
+
+      <p>Be part of the Kadunk Football family — where confidence grows, friendships form, and fun never stops! ⚽️</p>
+
+      <p>Contact us: <a href="mailto:kadunkfootball@gmail.com" class="email-link">kadunkfootball@gmail.com ✉️</a></p>
+    </div>
+
+    <!-- Add more posts below easily by duplicating the .poster div -->
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Kadunk Football. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

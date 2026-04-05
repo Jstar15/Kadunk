@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Header Bar</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Glide.js CSS for the slideshow -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+</head>
+<body>
+  <!-- DO NOT MODIFY: Existing header code -->
+  <header class="header">
+    <nav class="navi">
+      <div class="menu-top">
+		<div class="menu-left">
+		  <a href="./index.html">
+			<img src="images/logo.jpg" loading="lazy" class="logo" alt="Kadunk Football Logo">
+		  </a>
+		</div>
+
+        <div class="menu-center">
+		          <img src="images/instagram.png" width="30" height="30" loading="lazy" class="logo" alt="We Make Footballers Logo">
+				<a href="https://www.facebook.com/groups/14686525466/posts/10170790569075467/" target="_blank" rel="noopener noreferrer">
+				  <img src="images/facebook.png" width="30" height="30" loading="lazy" class="logo" alt="Facebook - We Make Footballers">
+				</a>
+
+
+		</div>
+        <ul class="menu">
+		  <li class="menu-link"><a href="./news.html">News And Updates</a></li>
+          <li class="menu-link"><a href="./our-classes.html">Our Classes</a></li>
+          <li class="menu-link"><a href="./contact-us.html">Contact Us</a></li>
+          <li>
+            <button class="btn-book-free-session">Book a free session</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- END OF UNMODIFIED HEADER CODE -->
+
+  <!-- NEW: Slideshow Section using Glide.js -->
+  <section class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+          <img src="images/home2.png" alt="Football Training">
+        </li>
+        <li class="glide__slide">
+          <img src="images/home4.jpg" alt="Kids Playing Football">
+        </li>
+        <li class="glide__slide">
+          <img src="images/home1.png" alt="Football Camp">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <!-- NEW: Call to Action Section -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to Get Started?</h2>
+      <p>Whether you're new to football or looking to develop skills further, Kadunk is here for your child.</p>
+      <button class="btn-book-free-session2">Book a Free Session</button>
+    </div>
+  </section>
+  
+  
+  <!-- NEW: Programs Section -->
+  <section class="programs">
+    <div class="container">
+      <h2>Our Programs</h2>
+      <div class="program-list">
+        <div class="program">
+          <img src="images/our-programs3.jpeg" alt="Weekly Training" style="width:100%; border-radius: 12px;">
+          <h3>News And Updates</h3>
+          <p>Join our regular sessions designed to improve skills and teamwork.</p>
+        </div>
+        <div class="program">
+          <img src="images/our-programs1.jpeg" alt="Holiday Camps" style="width:100%; border-radius: 12px;">
+          <h3>Our Classes</h3>
+          <p>Engaging football camps to keep your child active during school breaks.</p>
+        </div>
+        <div class="program">
+          <img src="images/our-programs2.jpeg" alt="Birthday Parties" style="width:100%; border-radius: 12px;">
+          <h3>About Us</h3>
+          <p>Celebrate with football-themed parties that guarantee fun for all.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+<!-- NEW: FAQ Section -->
+<section class="faq">
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h4>What age groups do you coach?</h4>
+        <p>We welcome children aged 4 to 12, with tailored sessions for each group.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Do we need to bring our own equipment?</h4>
+        <p>Just bring sportswear and water. We'll provide the rest!</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can I watch the training sessions?</h4>
+        <p>Absolutely! Parents are welcome to watch and support their kids.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+
+
+
+
+
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Kadunk Football. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Glide.js Script -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+  <script>
+    new Glide('.glide', {
+      type: 'carousel',
+      autoplay: 6000,
+      hoverpause: true,
+      animationDuration: 3000,
+      animationTimingFunc: 'ease-in-out'
+    }).mount();
+  </script>
+</body>
+</html>
