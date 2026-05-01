@@ -352,7 +352,7 @@ background-color: #13130c;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 25px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .about-item h4 {
@@ -464,6 +464,11 @@ background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),u
       margin-left: 0px;
   }
 
+  .program-list {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
 }
 
 
@@ -487,4 +492,21 @@ background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),u
   text-decoration: none;
 
   transition: color 0.2s ease, transform 0.2s ease;
+}
+
+
+.slogan-container{
+  width:100%;
+  text-align: center;
+  .slogan{
+    margin:0;
+    color:#ffffff;
+    font-size:1.5rem;
+    font-style:italic;
+    font-weight:700;
+    line-height:1.4;
+    text-shadow:0 0 18px rgba(202,178,79,0.15);
+        color:#cab24f;;
+
+    }
 }
