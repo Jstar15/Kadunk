@@ -500,7 +500,8 @@ background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),u
   }
 
   .menu {
-     margin-left: 0px;  align-items: center;
+     margin-left: 0px !important;  
+     align-items: center !important;
   }
 
   .menu-center {
