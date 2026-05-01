@@ -286,7 +286,7 @@ background-color: #13130c;
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 95% !important;
   padding: 10px;
   border: 1px solid #d1d5db;
   border-radius: 4px;
