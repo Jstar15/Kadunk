@@ -383,13 +383,11 @@ background-color: #13130c;
   border-radius: 12px;
   padding: 26px;
   border: 1px solid rgba(202, 178, 79, 0.15);
-  transition: all 0.25s ease;
 }
 
 /* Hover shared behaviour */
 .about-item:hover,
 .faq-item:hover {
-  transform: translateY(-6px);
   border-color: #6b28a2;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
@@ -463,12 +461,10 @@ background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),u
   border-radius: 12px;
   padding: 26px;
   border: 1px solid rgba(202, 178, 79, 0.25);
-  transition: all 0.25s ease;
 }
 
 /* Hover */
 .kadunk-faq .faq-item:hover {
-  transform: translateY(-6px);
   border-color: #cab24f;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
