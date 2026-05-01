@@ -511,6 +511,10 @@ background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),u
       gap: 10px;
       margin-left: 0px;
   }
+
+  .container{
+    margin-bottom: 30px !important;
+  }
 }
 
 
