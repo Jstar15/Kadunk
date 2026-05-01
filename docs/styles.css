@@ -250,54 +250,6 @@ background-color: #13130c;
   font-size: 1rem;
 }
 
-/* Contact Section */
-.contact {
-  padding: 60px 40px;
-  background-color: #f9fafb;
-  text-align: center;
-}
-
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #1f2937;
-}
-
-.contact p {
-  font-size: 1rem;
-  margin-bottom: 30px;
-}
-
-.contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.contact-form .form-group {
-  margin-bottom: 20px;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 95% !important;
-  padding: 10px;
-  border: 1px solid #d1d5db;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.contact-form textarea {
-  resize: vertical;
-  height: 150px;
-}
-
 /* Footer Styling */
 .footer {
   background-color: #13130c;
