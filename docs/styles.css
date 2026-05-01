@@ -498,6 +498,18 @@ background: linear-gradient(rgba(194, 167, 55, 0.6), rgba(194, 167, 55, 0.85)),u
   .kadunk-faq {
     padding: 60px 0;
   }
+
+  .menu {
+     margin-left: 0px;  align-items: center;
+  }
+
+  .menu-center {
+      /* display: grid; */
+      display: flex;
+      text-align: center;
+      gap: 10px;
+      margin-left: 0px;
+  }
 }
 
 
